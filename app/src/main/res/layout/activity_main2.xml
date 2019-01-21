@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="@drawable/resimpngolarak"
+    tools:context=".Main2Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/trizxqms"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_bulusprensip"
+            android:layout_width="match_parent"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_height="match_parent"
+            android:onClick="ayrilik_prensipleri"
+            android:text="@string/_40_bulu_prensibi"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:onClick="ayrilik_prensipleri"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/ayr_l_k_prensipleri"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:onClick="toMatrix"
+            android:shadowRadius="5"
+            android:layout_height="match_parent"
+            android:text="@string/_39x39_eli_ki_matrisi"
+            android:textSize="30sp" />
+    </LinearLayout>
+</LinearLayout>

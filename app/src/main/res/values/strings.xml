@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Triz</string>
+    <string name="ba_lang">başlangıç</string>
+    <string name="ba_la">başla</string>
+    <string name="hakk_nda">hakkında</string>
+    <string name="geri_donus">geri donus</string>
+    <string name="referanslar">referanslar</string>
+    <string name="burdas_n">burdasın</string>
+    <string name="trizxqms">TRIZ</string>
+    <string name="_39x39_eli_ki_matrisi">39x39 çelişki matrisi</string>
+    <string name="button">Button</string>
+    <string name="_40_bulu_prensibi">40 buluş prensibi</string>
+    <string name="ayr_l_k_prensipleri">ayrılık prensipleri</string>
+    <string name="yarat_c_problem_zme">yaratıcı problem çözme</string>
+    <string name="sistem_evrimi">sistem evrimi</string>
+    <string name="yaksamlar">yaksamlar</string>
+    <string name="segmentasyon">segmentasyon</string>
+    <string name="todo">TODO</string>
+    <string-array name="spinner_items">
+        <item>1. Hareketli Cismin Ağırlığı</item>
+        <item>2. Sabit Cismin Ağırlığı</item>
+        <item>3. Hareketli Cismin Uzunluğu</item>
+        <item>4. Sabit Cismin Uzunluğu</item>
+        <item>5. Hareketli Cismin Alanı</item>
+        <item>6. Sabit Cismin Alanı</item>
+        <item>7. Hareketli Cismin Hacmi</item>
+        <item>8. Sabit Cismin Hacmi</item>
+        <item>9. Hız</item>
+        <item>10. Kuvvet</item>
+        <item>11. Basınç / Gerilme</item>
+        <item>12. Şekil</item>
+        <item>13. Cismin Kararlılığı</item>
+        <item>14. Dayanıklılık</item>
+        <item>15. Hareketli Cismin Sağlamlığı</item>
+        <item>16. Sabit Cismin Sağlamlığı</item>
+        <item>17. Sıcaklık</item>
+        <item>18. Aydınlatma Yoğunluğu / Parlaklık</item>
+        <item>19. Hareketli Cismin Enerji Kullanımı</item>
+        <item>20. Sabit Cismin Enerji Kullanımı</item>
+        <item>21. Güç</item>
+        <item>22. Enerji Kaybı</item>
+        <item>23. Madde Kaybı</item>
+        <item>24. Bilgi Kaybı</item>
+        <item>25. Zaman Kaybı</item>
+        <item>26. Madde Miktarı</item>
+        <item>27. Güvenilirlik</item>
+        <item>28. Ölçüm Doğruluğu</item>
+        <item>29. Üretim Hassasiyeti</item>
+        <item>30. Cismin Dış Ortamdan Etkilendiği Zararlar</item>
+        <item>31. Cismin Ürettiği Zararlar</item>
+        <item>32. Üretim Kolaylığı</item>
+        <item>33. İşlem Kolaylığı</item>
+        <item>34. Tamir Kolaylığı</item>
+        <item>35. Çok Yönlülük ve Uyum</item>
+        <item>36. Cihaz Karmaşıklığı</item>
+        <item>37. Arıza Tespit Zorluğu</item>
+        <item>38. Otomasyon Kapsamı</item>
+        <item>39. Kapasite / Verimlilik</item>
+    </string-array>
+</resources>

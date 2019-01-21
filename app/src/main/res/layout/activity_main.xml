@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resimpngolarak"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.47"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout2start"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="toMatrix"
+            android:text="@string/ba_la"
+            android:textColor="#B8FFBA"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout2int"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/hakk_nda"
+            android:textColor="#B8FFBA"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Layout3sonref"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/geri_donus"
+            android:textColor="#B8FFBA"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="@string/referanslar"
+            android:textColor="#B8FFBA"
+            android:textSize="24sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</LinearLayout>
